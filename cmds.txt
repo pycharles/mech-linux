@@ -1,0 +1,12 @@
+#  Various Commands used for video
+#
+
+# Chromium start (fullscreen - stripped menus)
+chromium --kiosk "file:///home/bld/mech-linux/html/cam1_full_e.html"
+
+# Alias stuff
+alias kwc='killall /usr/bin/mjpg_streamer'
+alias startwc1='mjpg_streamer -i "/usr/lib/input_uvc.so -d /dev/video1 -r 960x720 -f 15" -o "/usr/lib/output_http.so -p 8081 $
+alias startwc2='mjpg_streamer -i "/usr/lib/input_uvc.so -d /dev/video2 -r 960x720 -f 15" -o "/usr/lib/output_http.so -p 8082 $
+
+
