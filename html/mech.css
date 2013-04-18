@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color: #000;	
+	background: url(images/background_5x5.png);	
 	}
 
 #main_full {	
@@ -11,8 +11,8 @@ body{
 	left:0px;
 	top:0px;
 	}
-.iframe_full {		
+.iframe_cam {		
 	position:absolute;
-	left:32px;
-	top:31px;	
+	left:40px;
+	top:40px;	
 	}	
