@@ -16,3 +16,63 @@ body{
 	left:40px;
 	top:40px;	
 	}	
+.btn_close {
+	background-image: url(images/button_1x1.png);
+	background-repeat: repeat;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	left: 1px;
+	top: 1px;
+	z-index:2;
+}
+.btn_s_empty {
+	background-image: url(images/button_1x1.png);
+	background-repeat: repeat;
+	position: absolute;
+	height: 78px;
+	width: 82px;
+	left: 1068px;
+	top: 66px;
+	z-index:2;
+}
+.btn_s_reddot {
+	background-image: url(images/button_1x1.png);
+	background-repeat: repeat;
+	position: absolute;
+	height: 78px;
+	width: 78px;
+	left: 1154px;
+	top: 66px;
+	z-index:2;
+}
+.btn_s_distance {
+	background-image: url(images/button_1x1.png);
+	background-repeat: repeat;
+	position: absolute;
+	height: 78px;
+	width: 82px;
+	left: 1068px;
+	top: 144px;
+	z-index:2;
+}
+.btn_s_snipe {
+	background-image: url(images/button_1x1.png);
+	background-repeat: repeat;
+	position: absolute;
+	height: 78px;
+	width: 78px;
+	left: 1154px;
+	top: 144px;
+	z-index:2;
+}
+.btn_powersave {
+	background-image: url(images/button_1x1.png);
+	background-repeat: repeat;
+	position: absolute;
+	height: 78px;
+	width: 78px;
+	left: 1180px;
+	top: 700px;
+	z-index:2;
+}
